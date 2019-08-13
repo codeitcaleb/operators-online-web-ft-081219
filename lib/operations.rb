@@ -7,10 +7,10 @@ def unsafe?(speed)
  
  if answer > 40 || answer < 60
     return true
-  elsif 
-    answer == 40..60
+  elsif answer == 40..60
     return false
   else
+    
   end 
 end
 
