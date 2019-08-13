@@ -9,7 +9,7 @@ def unsafe?(speed)
     return false
   end 
   
-  if answer < 40 || answer > 60
+  if answer < 40 && answer > 60
     return false
   end
 end
