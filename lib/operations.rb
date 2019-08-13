@@ -2,14 +2,16 @@
 
 def unsafe?(speed)
   answer = speed
- 
-# if answer 
- 
+
  if answer > 40 || answer < 60
     return true
   else 
     return false
   end 
+  
+  if answer == 40..60
+    return false
+  end
 end
 
 
