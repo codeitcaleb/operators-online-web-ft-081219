@@ -1,6 +1,9 @@
 def unsafe?(speed)
-  if answer == true 
-    puts
+ unsafe > speed
+ 
+  if unsafe == true 
+    puts true
+  else puts false
 end
 
 
