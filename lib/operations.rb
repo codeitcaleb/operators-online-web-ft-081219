@@ -1,7 +1,7 @@
 #unsafe? returns false if the speed is between 40 and 60
 
 def unsafe?(speed)
- unsafe? =
+ unsafe? >= 40 || 60
  
   if unsafe? == true 
     puts true
