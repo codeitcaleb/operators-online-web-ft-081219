@@ -13,7 +13,9 @@ end
 
 
 def not_safe?(speed)
-	
+	answer = speed
+  
+  answer 
 end
 	
 
