@@ -1,13 +1,20 @@
 #unsafe? returns false if the speed is between 40 and 60
 
 def unsafe?(speed)
-# unsafe? = speed
+  answer = speed
  
-  if speed == 40..60
+  if answer == 40..60
     return true
-  else speed > 40 
+  else 
     return false
+  end 
+  
+  if answer > 40 
+    return true
+  else answer <
  end
+ 
+ 
 end
 
 
