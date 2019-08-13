@@ -4,8 +4,9 @@ def unsafe?(speed)
 # unsafe? = speed
  
   if speed == 40..60
-    puts true
-  else puts false
+    return true
+  else 
+    return false
  end
 end
 
